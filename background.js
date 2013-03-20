@@ -1,7 +1,7 @@
 // Add Bookmark
 function addBookmark(info, tab) {
 
-    var w = 560, h = 460;
+    var w = 560, h = 480;
     window.open (
         "http://www.google.com/bookmarks/mark?op=edit&output=popup&annotation="+encodeURIComponent(info.selectionText || '')+"&bkmk="+encodeURIComponent(tab.url)+"&title="+encodeURIComponent(tab.title),
         "bkmk_popup",
